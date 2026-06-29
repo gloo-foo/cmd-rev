@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	rev "github.com/gloo-foo/cmd-rev/alias"
 	"github.com/gloo-foo/testable"
+
+	rev "github.com/gloo-foo/cmd-rev/alias"
 )
 
 // The alias package re-exports the constructor under an unprefixed name. A

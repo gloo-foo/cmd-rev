@@ -6,7 +6,7 @@ import (
 )
 
 // Rev returns a command that reverses each input line character by character.
-func Rev(opts ...any) gloo.Command[[]byte, []byte] {
+func Rev(_ ...any) gloo.Command[[]byte, []byte] {
 	return patterns.Map(func(line []byte) ([]byte, error) {
 		runes := []rune(string(line))
 		for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {

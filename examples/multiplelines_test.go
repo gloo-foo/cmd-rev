@@ -3,8 +3,9 @@ package rev_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-rev"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-rev"
 )
 
 func ExampleRev_multipleLines() {

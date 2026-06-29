@@ -5,8 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-rev"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-rev"
 )
 
 func TestRev_SingleLine(t *testing.T) {
